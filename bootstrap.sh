@@ -9,7 +9,7 @@ mkdir $WALLPAPER_DIR
 # Grab wallpapers.
 REPO_URL=https://github.com/noffle/rotating_8bit_wallpapers/raw/master
 for i in {0..7}; do
-    wget $REPO_URL/bg_${i}.png -O ${WALLPAPER_DIR}/bg_${i}.png
+    wget $REPO_URL/wallpapers/bg_${i}.png -O ${WALLPAPER_DIR}/bg_${i}.png
 done
 
 # Generate a script to run periodically and update the background wallpaper.
