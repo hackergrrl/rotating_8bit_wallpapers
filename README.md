@@ -8,4 +8,4 @@ Installation
 -------------
 Do you trust me?
 
-`curl -s https://github.com/noffle/rotating_8bit_wallpapers/raw/master/bootstrap.sh | sh`
+`curl -Ls https://github.com/noffle/rotating_8bit_wallpapers/raw/master/bootstrap.sh | sh`
