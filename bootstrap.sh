@@ -15,6 +15,10 @@ done
 # Generate a script to run periodically and update the background wallpaper.
 UPDATE_SCRIPT=$WALLPAPER_DIR/update_bg.sh
 cat << EOF > $UPDATE_SCRIPT
+#!/bin/bash
+
+export DISPLAY=:0
+
 BG_INDEX=\$(echo "\$(date +%H) / 3" | bc)
 feh --bg-scale ${WALLPAPER_DIR}/bg_\${BG_INDEX}.png
 EOF
