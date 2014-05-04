@@ -10,13 +10,12 @@ Reddit](http://www.reddit.com/r/wallpapers/comments/1tqe9k/update_new_version_of
   </a>
 </center>
 
-Dependencies
--------------
-Assumes you have `wget` for URL grabbing and `feh` for setting background
-wallpaper. Feel free to tweak the script to your desired toolset.
-
 Installation
 -------------
 a.k.a. Do you trust me?
 
 `curl -Ls https://github.com/noffle/rotating_8bit_wallpapers/raw/master/bootstrap.sh | sh`
+
+Dependencies
+-------------
+Assumes you have `wget` for URL grabbing and `feh` for setting background wallpaper. Oh, and `bc` for some simple math, though this is installed on most systems. Feel free to tweak the script to your desired toolset.
